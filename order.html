@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+ <script language="JavaScript">
+    function showItem() {
+    	var table=document.getElementById('order_table');
+    	var row = table.insertRow(0);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    cell1.innerHTML = document.getElementById('Item_Name').textContent;
+    cell2.innerHTML = "NEW CELL2";
+        
+    }
+  </script>
+	<head>
+		<title>Order</title>
+   <img src="images/75515_MedsTreats_Tier_1658x640.jpg" alt=""  width=1000 height=400/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/images.png" alt="" /></span>
+					<h1 id="logo"><a href="#">Cart</a></h1>
+				
+				</header>
+				<h3>Order Details</h3>
+				<div class="table-responsive">
+				<table class="table table-bordered">
+					<tr>
+						<th width="40%">Item</th>
+						<th width="10%">Quantity</th>
+						<th width="20%">Price</th>
+						<th width="15%">Total</th>
+						<th width="5%">Action</th>
+					</tr>
+							
+				</table>
+				<table class="table table-bordered" id="order_table">
+					
+					
+						
+				</table>
+			</div>
+			
+				 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Order" /></li>
+													<li><input type="button" value="remove" /></li>
+												</ul>
+											</div>
+										</div>
+				
+				
+			</section>
+
+		<!-- Wrapper -->
+
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+
+									<h3>Products</h3>
+									
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/8d923018ddfbc4e42c36f2340a106127.jpg" alt="" /></a>
+											<div class="inner">
+												<h4 style="color:red;">#Offer </h4>
+												<h4 style ="color:red;" id="mustela_Name">mustela  </h4>
+												<p>Collection of moisturizers,lotions,cleansers and creams for baby sensitive skin. </p>
+												<p style="color:blue;" id="mustela_price">125$</p>
+												<p style="color:blue;"> Sale ends in 5/3/2019</p>
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" onclick="showItem();" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/a313-vitamin-a-pommade-closest-version-to-avibon-available__219kwRPF5oL.jpg" alt="" /></a>
+											<div class="inner">
+												<h4 style="color:black;">French cream </h4>
+												<h4 style ="color:red;" id="A313_Name">A313 </h4>
+
+												<p>Vitamin A and something you should DEF be using if you are over 25. It prevents wrinkles, helps with existing wrinkles, resurfaces skin + takes care of any pesky acne. </p>
+												<p style="color:blue;" id="A313_price">20$</p>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/frenchpharmacy.jpg" alt="" /></a>
+											<div class="inner">
+												<h4 style="color:red;">#Offer </h4>
+												<h4 style ="color:red;" id="Vichy_Name">mustela  </h4>
+												<p>Not only does Vichy water hydrate and soothe skin, it also provides antioxidant protection to improve the overall health of your complexion. You can use Vichy water after cleansing or masking, to refresh skin while you travel or to improve your makeup application. </p>
+												<p style="color:blue;" id="Vichy_price">200$</p>
+												<p style="color:blue;"> Sale ends in 11/1/2019</p>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pain-relief-img.png" alt="" /></a>
+											<div class="inner">
+												<h4 style="color:red;">#Offer </h4>
+												<h4 style="color:red;" id="pain Relif_Name">pain Relif</h4>
+												<p>An analgesic or painkiller is any member of the group of drugs used to achieve analgesia, relief from pain. Analgesic drugs act in various ways on the peripheral and central nervous systems. They are distinct from anesthetics, which temporarily affect, and in some instances completely eliminate, sensation. </p>
+												<h4/ style="color:blue;" id="painRelif_price">price:150$</h4>
+												<p style="color:blue;"> Sale ends in 11/1/2019</p>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/8b1200fe08315ae4371b6f8acdae7703.jpg" alt="" /></a>
+											<div class="inner">
+												<h4 style="color:red;">New </h4>
+												<h4 style="color:red;" id="BabyBottle_Name">Baby Bottle</h4>
+												<p>A baby bottle is a bottle with a teat to drink directly from. It is typically used by infants and young children, or if someone cannot drink from a cup, for feeding oneself or being fed. </p>
+												<h4 style="color:blue;" id="BabyBottle_price">price:30$</h4>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/clear-skin-tincture-ogranic-pharmacy.jpg" alt="" /></a>
+											<div class="inner">
+											<h4 style="color:red;" id="Detox_Name">Detox</h4>
+												<p> detox water for weight loss may produce incredible results. For this reason, many people are willing to begin a detoxification regimen. Other reasons often include trying to improve overall health by taking a few easy to follow steps and preparing a homemade detox water. </p>
+												<h4 style="color:blue;" id="Detox_price">price:80$</h4>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/baby-sml.jpg" alt="" /></a>
+											<div class="inner">
+												<h4 style="color:red;">#Offer </h4>
+												<h4 style="color:red;" id="Johnson_Name">Johnson</h4>
+												<p> baby cosmetics and skin care products owned by Johnson & Johnson. </p>
+												<h4 style="color:blue;" id="Johnson_price">price:130$</h4>
+												<p style="color:blue;"> Sale ends in 15/7/2019</p>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pharmacie_13199022_moncoinsante.jpg" alt="" /></a>
+											<div class="inner">
+											<h4 style="color:red;" id="Doliprane_Name">Doliprane</h4>
+												<p> Doliprane 1,000 mg (1 g) tablets contain paracetamol and are recommended for the symptomatic treatment of mild to moderate pain and/or feverish states, as well as pain caused by degenerative osteoarthritis.
+                                                Suitable for adults and children weighing more than 50 kg (110.2 pounds or 7.9 stone; approximately ages 15 and over). </p>
+                                                <h4 style="color:blue;" id="Doliprane_price">price:11$</h4>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/FrenchPharmacy.png" alt="" /></a>
+											<div class="inner">
+											<h4 style="color:red;" id="Avibon_Name">Avibon</h4>
+												<p> Avibon is a French pharmacy-grade vitamin A cream or "pommade" used topically for treating wrinkles. It is naturally converted to retinoic acid by human skin after smoothing onto the hands and face after approximately fifteen minutes. It does not sting or irritate skin in the same way as harsher retinoic acids like Retinol, that are created in a lab versus naturally proessed on the skin. Scientific results have proven the effectiveness of Avibon for reducing wrinkles and it is a favorite among celebrities in addition to hyaluronic acid face creams. 
+												</p>
+												<h4 style="color:blue;" id="Avibon_price">price:15$</h4>
+											
+												 <div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="button" class="special" value="Add to cart" /></li>
+													<li><input type="button" value="Show details" /></li>
+												</ul>
+											</div>
+										</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+							</body>
+</html>
